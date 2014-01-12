@@ -1,0 +1,42 @@
+/* colors */
+.colored {
+    color: #000;
+    display: table-cell;
+    height: 125px;
+    vertical-align: middle;
+}
+.colored .red {
+    color: #eb0000;
+}
+.colored .green {
+    color: #00a20d;
+}
+.colored .orange {
+    color: #ffd500;
+}
+.colored .gray {
+    color: #646464;
+}
+.colored .blue {
+    color: #006da6;
+}
+/* Logotypes list */
+.logotypes {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 125px;
+}
+.logotypes li {
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    display: table-cell;
+}
+.logotypes li img {
+    max-width: 100%;
+}
+.logotypes li.right {
+    float: right;
+}
